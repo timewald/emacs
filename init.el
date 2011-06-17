@@ -43,6 +43,11 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "grey10" :foreground "White" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "apple" :family "Monaco"))))
+ '(font-lock-function-name-face ((((class color) (min-colors 88) (background dark)) (:foreground "LightSkyBlue"))))
+ '(font-lock-string-face ((((class color) (min-colors 88) (background dark)) (:foreground "LightSalmon"))))
  '(linum ((t (:inherit (shadow default) :foreground "yellow"))))
  '(mode-line ((t (:background "red" :inverse-video nil))))
- '(mode-line-inactive ((default (:inherit mode-line :background "grey")) (nil nil))))
+ '(mode-line-inactive ((default (:inherit mode-line :background "grey" :foreground "black")) (nil nil))))
+
+
